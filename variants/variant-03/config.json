@@ -1,0 +1,16 @@
+{
+  "variant": 3,
+  "subject": "Заказы книжного магазина",
+  "database": "pp07_v03",
+  "port": 55470,
+  "backup_port": 55471,
+  "backup_dir": "backups",
+  "backup_time": "18:03",
+  "rows": 3360,
+  "total": "38272862.60",
+  "digest": "5eea4014bdfb22ea587a5b712e61a475",
+  "incident": "port",
+  "incident_title": "Ошибочный порт резервирования",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

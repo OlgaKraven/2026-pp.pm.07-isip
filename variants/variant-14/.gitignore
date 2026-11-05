@@ -1,0 +1,5 @@
+.local/
+backups/
+*.partial
+*.dump
+*.dump.json

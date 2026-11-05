@@ -1,0 +1,16 @@
+{
+  "variant": 5,
+  "subject": "Сервис доставки обедов",
+  "database": "pp07_v05",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:05",
+  "rows": 3600,
+  "total": "40501382.00",
+  "digest": "3000de4e2c075ef6fec5b6a5cfd3358a",
+  "incident": "missing",
+  "incident_title": "У роли чтения отсутствует SELECT",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

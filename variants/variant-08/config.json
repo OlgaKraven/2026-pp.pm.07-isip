@@ -1,0 +1,16 @@
+{
+  "variant": 8,
+  "subject": "Ремонт компьютерной техники",
+  "database": "pp07_v08",
+  "port": 55470,
+  "backup_port": 55471,
+  "backup_dir": "backups",
+  "backup_time": "18:08",
+  "rows": 3960,
+  "total": "45716059.60",
+  "digest": "b667e8c70bc8049ba9d70b374c906a58",
+  "incident": "port",
+  "incident_title": "Ошибочный порт резервирования",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

@@ -1,0 +1,16 @@
+{
+  "variant": 1,
+  "subject": "Сервис проката оборудования",
+  "database": "pp07_v01",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:01",
+  "rows": 3120,
+  "total": "37036023.20",
+  "digest": "ab25669c275aece93ba3264bd70e75a6",
+  "incident": "excess",
+  "incident_title": "Избыточное право удаления",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

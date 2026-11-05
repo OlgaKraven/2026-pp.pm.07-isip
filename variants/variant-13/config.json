@@ -1,0 +1,16 @@
+{
+  "variant": 13,
+  "subject": "Регистрация учебных мероприятий",
+  "database": "pp07_v13",
+  "port": 55470,
+  "backup_port": 55471,
+  "backup_dir": "backups",
+  "backup_time": "18:13",
+  "rows": 4560,
+  "total": "55357256.60",
+  "digest": "010f95473d432f8c839a05163e5ad7c3",
+  "incident": "port",
+  "incident_title": "Ошибочный порт резервирования",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

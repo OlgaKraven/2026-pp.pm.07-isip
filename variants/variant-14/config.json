@@ -1,0 +1,16 @@
+{
+  "variant": 14,
+  "subject": "Заказы фотоцентра",
+  "database": "pp07_v14",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "orders.csv",
+  "backup_time": "18:14",
+  "rows": 4680,
+  "total": "55814255.80",
+  "digest": "5500003406796d14528dfe8596c972c4",
+  "incident": "path",
+  "incident_title": "Каталог копий указывает на файл",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

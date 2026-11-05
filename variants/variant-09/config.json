@@ -1,0 +1,16 @@
+{
+  "variant": 9,
+  "subject": "Заказы цветочной мастерской",
+  "database": "pp07_v09",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "orders.csv",
+  "backup_time": "18:09",
+  "rows": 4080,
+  "total": "47933458.80",
+  "digest": "bece2c871fa0460ac0f7e0d405d97541",
+  "incident": "path",
+  "incident_title": "Каталог копий указывает на файл",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

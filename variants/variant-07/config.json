@@ -1,0 +1,16 @@
+{
+  "variant": 7,
+  "subject": "Выдача спортивного инвентаря",
+  "database": "pp07_v07",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:07",
+  "rows": 3840,
+  "total": "43721580.40",
+  "digest": "fbc23a64437e1c694411d2ca2de335eb",
+  "incident": "index",
+  "incident_title": "Отсутствует индекс поиска",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

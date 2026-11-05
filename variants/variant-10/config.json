@@ -1,0 +1,16 @@
+{
+  "variant": 10,
+  "subject": "Заявки управляющей компании",
+  "database": "pp07_v10",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:10",
+  "rows": 4200,
+  "total": "50398779.00",
+  "digest": "a9d8fcbe7b1adf87783583320fe44541",
+  "incident": "missing",
+  "incident_title": "У роли чтения отсутствует SELECT",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

@@ -1,0 +1,16 @@
+{
+  "variant": 11,
+  "subject": "Прокат туристического снаряжения",
+  "database": "pp07_v11",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:11",
+  "rows": 4320,
+  "total": "53137017.20",
+  "digest": "891e50016b137e76bd29fa15ace0f496",
+  "incident": "excess",
+  "incident_title": "Избыточное право удаления",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

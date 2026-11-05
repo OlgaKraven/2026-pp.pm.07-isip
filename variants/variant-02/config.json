@@ -1,0 +1,16 @@
+{
+  "variant": 2,
+  "subject": "Заявки ремонтной мастерской",
+  "database": "pp07_v02",
+  "port": 55470,
+  "backup_port": 55470,
+  "backup_dir": "backups",
+  "backup_time": "18:02",
+  "rows": 3240,
+  "total": "37542983.40",
+  "digest": "69338b02fbed6eaed4a9387465386b59",
+  "incident": "index",
+  "incident_title": "Отсутствует индекс поиска",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}

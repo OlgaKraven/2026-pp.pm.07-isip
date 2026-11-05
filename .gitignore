@@ -1,0 +1,12 @@
+/site/
+/work/
+.playwright-cli/
+__pycache__/
+*.pyc
+**/.local/
+**/backups/
+*.dump
+*.partial
+*.log
+.DS_Store
+Thumbs.db

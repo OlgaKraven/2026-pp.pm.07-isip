@@ -1,0 +1,16 @@
+{
+  "variant": 4,
+  "subject": "Бронирования учебных аудиторий",
+  "database": "pp07_v04",
+  "port": 55476,
+  "backup_port": 55476,
+  "backup_dir": "backups",
+  "backup_time": "18:04",
+  "rows": 3480,
+  "total": "39275661.80",
+  "digest": "3bc92ada5abcb368e40f2f825ea3f80b",
+  "incident": "path",
+  "incident_title": "Каталог копий указывает на файл",
+  "rto_seconds": 120,
+  "rpo_hours": 24
+}
