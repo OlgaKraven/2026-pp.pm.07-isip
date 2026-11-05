@@ -67,11 +67,16 @@ def build():
   if paragraph.text=='Состав передаваемых материалов':paragraph.paragraph_format.page_break_before=True
  doc.core_properties.title='Отчет о выполнении';doc.core_properties.subject='ПМ.07'
  doc.core_properties.author=doc.core_properties.last_modified_by='';doc.core_properties.comments=''
+ settings=doc.settings.element
+ compat=settings.find(qn('w:compat'))
+ if compat is None:compat=parts.el('compat');settings.append(compat)
+ flag=compat.find(qn('w:doNotExpandShiftReturn'))
+ if flag is None:flag=parts.el('doNotExpandShiftReturn',val='true');compat.insert(0,flag)
  doc.save(out)
  # Preserve the original master styles, relationships and resources exactly.
  with zipfile.ZipFile(out) as z:edited={n:z.read(n) for n in z.namelist()}
  with zipfile.ZipFile(MASTER) as z:original={n:z.read(n) for n in z.namelist()}
- allowed={'word/document.xml','word/numbering.xml','docProps/core.xml'}
+ allowed={'word/document.xml','word/numbering.xml','docProps/core.xml','word/settings.xml'}
  with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
   for name,value in original.items():
    info=zipfile.ZipInfo(name,(2026,11,5,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,edited[name] if name in allowed else value)
